@@ -577,7 +577,7 @@ button {
     /*Start Users */
     .users .user {
         justify-content: space-around;
-        padding-right: 2px;
+        padding-right: 10px;
     }
 
     /*End Users */
