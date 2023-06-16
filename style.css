@@ -500,35 +500,44 @@ button {
 /*Start Media */
 
 @media (max-width:1140px) {
+
     /*Start Golapl */
     .continer {
         width: 100%;
         margin: 0;
     }
+
     /*End Golapl */
     /*Start Nav */
     .nav ul {
         display: none;
     }
+
     .nav li {
         padding-bottom: 1rem;
     }
+
     .nav {
         flex-flow: wrap;
         justify-content: space-between;
     }
+
     .nav .continer {
         justify-content: space-between;
     }
+
     .nav .auth {
         display: none;
     }
+
     .nav .logo {
         order: 0;
     }
+
     .nav .bar {
         order: 1;
     }
+
     .nav .bar span {
         display: flex;
         width: 25px;
@@ -536,6 +545,7 @@ button {
         background-color: var(--bs-gray);
         margin-bottom: 4px;
     }
+
     /*End Nav */
     /*Start About */
     .about {
@@ -543,69 +553,87 @@ button {
         align-items: center;
         padding-bottom: 2rem;
     }
+
     .about .content {
         order: 1;
         width: 100%;
         text-align: center;
     }
+
     .about .content h1 {
         font-size: calc(1.37383rem + 1.48598vw)
     }
+
     .about .content p {
         text-align: center;
     }
+
     .about .img {
         width: 100%;
         order: 0;
     }
+
     /*End About */
     /*Start Users */
     .users .user {
         justify-content: space-around;
+        padding-right: 2px;
     }
+
     /*End Users */
     /*Start Features */
     .Features {
         flex-flow: column;
     }
+
     .Features .img {
         width: 100%;
     }
+
     .Features .img img {
         width: 100%;
     }
+
     .Features .content {
         width: 100%;
         text-align: center;
         padding-top: 2.5rem;
     }
+
     .Features .content p {
         text-align: center;
     }
+
     /*End Features */
     /*Start plans */
     .plans .top {
         width: 100%;
     }
+
     .plans .category {
         flex-flow: column;
     }
+
     .plans .category .plan {
         width: 100%;
         margin-bottom: 2.5rem;
     }
+
     /*End plans */
     /*Start Map */
     .map .top {
         width: 100%;
         padding: 0;
     }
+
     .map .img {
         width: 100%;
     }
+
     .map .img img {
         width: 100%;
     }
+
     /*End Map */
 }
 
